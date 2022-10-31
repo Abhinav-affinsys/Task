@@ -1,7 +1,9 @@
 To run the django system, change directory to Task and run python3 manage.py run server
 Go to http://127.0.0.1:8000/admin/ and changing values to send update message or create new record for new customer message.
+
 More detail is provided in document
-To run the ml-model ,got to reco task and run reco.py,currently the system uses dataframe rows for prediction for testing purposes but it can updated to use custome user entry
+
+To run the ml-model ,go to reco task and run reco.py,currently the system uses dataframe rows for prediction for testing purposes but it can updated to use custome user entry
 ```bash
 .
 ├── README.md
