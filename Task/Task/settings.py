@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'task',
-    'rest_framework',
-    'django_twilio',
+    "task",
+    "rest_framework",
+    "django_twilio",
 ]
 
 MIDDLEWARE = [
@@ -114,18 +114,18 @@ USE_I18N = True
 
 USE_TZ = True
 
-TWILIO_ACCOUNT_SID = 'ACbc3a72484aa95ca0b696fb102374d4af'
+TWILIO_ACCOUNT_SID = "ACbc3a72484aa95ca0b696fb102374d4af"
 
-TWILIO_AUTH_TOKEN = 'e67ebf188cea3008d5974991a075de7a'
+TWILIO_AUTH_TOKEN = "e67ebf188cea3008d5974991a075de7a"
 
-TWILIO_DEFAULT_CALLERID = '+19203521105'
+TWILIO_DEFAULT_CALLERID = "+19203521105"
 
 GMAIL_ID = "testsmtp153@gmail.com"
 
 GMAIL_PASS = "LvA6wBQnW6L7Y4w"
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "abhinav.nair2019@vitstudent.ac.in"

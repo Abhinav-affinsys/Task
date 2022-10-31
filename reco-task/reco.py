@@ -1,35 +1,35 @@
-import lightgbm as lgb
 import pandas as pd
-import numpy as np
 import pickle
+
 df = pd.read_csv("stanbic.csv")
-df = df.iloc[:,:-3]
-df.credit_cards = df.credit_cards.apply(lambda x:x.strip("[]"))
-df_test = df.credit_cards.str.get_dummies(sep = ',')
-df = df.drop(['credit_cards'],axis=1)
+df = df.iloc[:, :-3]
+df.credit_cards = df.credit_cards.apply(lambda x: x.strip("[]"))
+df_test = df.credit_cards.str.get_dummies(sep=",")
+df = df.drop(["credit_cards"], axis=1)
 df = df.join(df_test)
-df = df.drop('cust_id',axis=1)
-obj_feat = list(df.loc[:, df.dtypes == 'object'].columns.values)
+df = df.drop("cust_id", axis=1)
+obj_feat = list(df.loc[:, df.dtypes == "object"].columns.values)
 for feature in obj_feat:
     df[feature] = pd.Series(df[feature], dtype="category")
 
+
 def reco_prod(pk):
     reco = []
-    for i in range(46,90):
-        md_name = df.iloc[:,i].name
-        pr = str(md_name).replace("'","")
-        pr = pr.replace(" ","")
-        filename = f'/home/abhinav-dev/reco-task/Models_cards/Model_{md_name}.sav'
-        loaded_model = pickle.load(open(filename, 'rb'))
-        y_pred = loaded_model.predict(df.iloc[[pk],:45])
-        if(y_pred >= 0.5):
+    for i in range(46, 90):
+        md_name = df.iloc[:, i].name
+        pr = str(md_name).replace("'", "")
+        pr = pr.replace(" ", "")
+        filename = f"/home/abhinav-dev/reco-task/Models_cards/Model_{md_name}.sav"
+        loaded_model = pickle.load(open(filename, "rb"))
+        y_pred = loaded_model.predict(df.iloc[[pk], :45])
+        if y_pred >= 0.5:
             reco.append(pr)
     print(reco)
+
 
 print("Enter Row Number to find product recommendation")
 pk = int(input())
 reco_prod(pk)
-
 
 
 # # df['profession_subclass'] = enc.fit_transform(np.array(df['profession_subclass']).reshape(-1,1))
