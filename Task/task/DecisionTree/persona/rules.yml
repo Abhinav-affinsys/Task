@@ -1,0 +1,12 @@
+---
+users:
+  - category: high_net_worth
+    persona:
+      - id: High Net Worth
+        value: High Net Worth
+        restrictions: hnw.yml
+
+#      - id: High Net Worth
+#        value: High Net Worth
+#        restrictions: hnw.yml
+...

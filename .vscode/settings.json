@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Task/task/DecisionTree"
+    ]
+}

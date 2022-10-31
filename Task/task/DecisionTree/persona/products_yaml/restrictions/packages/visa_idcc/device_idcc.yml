@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: device_tier
+    allowed_values:
+      list: device_tier_1
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

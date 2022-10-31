@@ -1,0 +1,12 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: location
+    allowed_values:
+      list: Down Town,Barwa Village,Ezdan Village,Airport,Al Aziziyah,Al Hitmi,Al Nuaija,Doha Al Jadeed,Fereej Abdul Aziz,Muaither Area,Najma,Salwa Road,Birkat Al Awamer,Al Luqta,Izghawa,Umm Salal Ali,B-Ring Road,Rawdat Al Khail
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: location
+    allowed_values:
+      list: Al Ruwais,Al Sailiya,Birkat Al Awamer
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

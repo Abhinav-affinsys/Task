@@ -1,0 +1,33 @@
+---
+users:
+  - category: location_tier_1
+    persona:
+      - id: location_tier_1
+        value: High Net Worth 1
+        restrictions: location_yaml/restrictions/Location_Tier1.yml
+  - category: location_tier_2
+    persona:
+      - id: location_tier_2
+        value: High Net Worth 2
+        restrictions: location_yaml/restrictions/Location_Tier2.yml
+  - category: location_tier_3
+    persona:
+      - id: location_tier_3
+        value: Medium Net Worth 1
+        restrictions: location_yaml/restrictions/Location_Tier3.yml
+  - category: location_tier_4
+    persona:
+      - id: location_tier_4
+        value: Medium Net Worth 2
+        restrictions: location_yaml/restrictions/Location_Tier4.yml
+  - category: location_tier_5
+    persona:
+      - id: location_tier_5
+        value: Low Net Worth 1
+        restrictions: location_yaml/restrictions/Location_Tier5.yml
+  - category: location_tier_6
+    persona:
+      - id: location_tier_6
+        value: Low Net Worth 2
+        restrictions: location_yaml/restrictions/Location_Tier6.yml
+...

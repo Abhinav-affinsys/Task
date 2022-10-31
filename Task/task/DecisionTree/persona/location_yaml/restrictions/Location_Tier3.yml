@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: location
+    allowed_values:
+      list: Al Waab,Corniche Road,Fereej Bin Mahmoud,Madinat Khalifa,Musheireb,West Bay Lagoon,Al Erkyah City,Lusail City,Regency Residence Fox Hills 1,Regency Residence Fox Hills 3,Al Mirqab Al Jadeed,Burj DAMAC Marina,Qutaifan islands,Regency Residence Fox Hills 2,Simaisma,Al Jasra
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

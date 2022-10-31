@@ -1,0 +1,35 @@
+---
+products:
+  - category: Call Account
+    product:
+      - id: location
+        value: call_account
+        restrictions: products_yaml/restrictions/deposit_accounts/call_account/location_ca.yml
+      - id: device
+        value: call_account
+        restrictions: products_yaml/restrictions/deposit_accounts/call_account/device_ca.yml
+  - category: Elite Bonus Saver
+    product:
+      - id: location
+        value: elite_bonus_saver
+        restrictions: products_yaml/restrictions/deposit_accounts/ebs/location_ebs.yml
+      - id: device
+        value: elite_bonus_saver
+        restrictions: products_yaml/restrictions/deposit_accounts/ebs/device_ebs.yml
+  - category: Regular Saver
+    product:
+      - id: location
+        value: regular_saver
+        restrictions: products_yaml/restrictions/deposit_accounts/regular_saver/location_rs.yml
+      - id: device
+        value: regular_saver
+        restrictions: products_yaml/restrictions/deposit_accounts/regular_saver/device_rs.yml
+  - category: Time Deposit
+    product:
+      - id: location
+        value: time_deposit
+        restrictions: products_yaml/restrictions/deposit_accounts/time_deposit/location_td.yml
+      - id: device
+        value: time_deposit
+        restrictions: products_yaml/restrictions/deposit_accounts/time_deposit/device_td.yml
+...

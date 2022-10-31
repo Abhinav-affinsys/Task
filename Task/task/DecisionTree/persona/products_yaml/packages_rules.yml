@@ -1,0 +1,35 @@
+---
+products:
+  - category: MasterCard Titanium + Diners Club card
+    product:
+      - id: location
+        value: mastercard_titanium_diners_club_card
+        restrictions: products_yaml/restrictions/packages/mastercard_tdcc/location_tdcc.yml
+      - id: device
+        value: mastercard_titanium_diners_club_card
+        restrictions: products_yaml/restrictions/packages/mastercard_tdcc/device_tdcc.yml
+  - category: Visa Classic
+    product:
+      - id: location
+        value: visa_classic
+        restrictions: products_yaml/restrictions/packages/vc/location_vc.yml
+      - id: device
+        value: visa_classic
+        restrictions: products_yaml/restrictions/packages/vc/device_vc.yml
+  - category: Visa Platinum + Diners Club card
+    product:
+      - id: location
+        value: visa_platinum_diners_club_card
+        restrictions: products_yaml/restrictions/packages/visa_pdcc/location_pdcc.yml
+      - id: device
+        value: visa_platinum_diners_club_card
+        restrictions: products_yaml/restrictions/packages/visa_pdcc/device_pdcc.yml
+  - category: Visa Infinite + Diners Club card
+    product:
+      - id: location
+        value: visa_infinite_diners_club_card
+        restrictions: products_yaml/restrictions/packages/visa_idcc/location_idcc.yml
+      - id: device
+        value: visa_infinite_diners_club_card
+        restrictions: products_yaml/restrictions/packages/visa_idcc/device_idcc.yml
+...

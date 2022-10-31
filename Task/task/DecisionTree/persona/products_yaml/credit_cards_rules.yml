@@ -1,0 +1,43 @@
+---
+products:
+  - category: Manchester United Classic Card
+    product:
+      - id: location
+        value: manchester_united_classic_card
+        restrictions: products_yaml/restrictions/credit_cards/mucc/location_mucc.yml
+      - id: device
+        value: manchester_united_classic_card
+        restrictions: products_yaml/restrictions/credit_cards/mucc/device_mucc.yml
+  - category: Sadara Credit Card
+    product:
+      - id: location
+        value: sadara_credit_card
+        restrictions: products_yaml/restrictions/credit_cards/scc/location_scc.yml
+      - id: device
+        value: sadara_credit_card
+        restrictions: products_yaml/restrictions/credit_cards/scc/device_scc.yml
+  - category: Classic Credit Card
+    product:
+      - id: location
+        value: classic_credit_card
+        restrictions: products_yaml/restrictions/credit_cards/ccc/location_ccc.yml
+      - id: device
+        value: classic_credit_card
+        restrictions: products_yaml/restrictions/credit_cards/ccc/device_ccc.yml
+  - category: Platinum Credit Card  
+    product:
+      - id: location
+        value: platinum_credit_card 
+        restrictions: products_yaml/restrictions/credit_cards/pcc/location_pcc.yml
+      - id: device
+        value: platinum_credit_card 
+        restrictions: products_yaml/restrictions/credit_cards/pcc/device_pcc.yml
+  - category: Titanium Credit Card
+    product:
+      - id: location
+        value: titanium_credit_card
+        restrictions: products_yaml/restrictions/credit_cards/tcc/location_tcc.yml
+      - id: device
+        value: titanium_credit_card
+        restrictions: products_yaml/restrictions/credit_cards/tcc/device_tcc.yml
+...

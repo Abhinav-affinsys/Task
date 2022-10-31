@@ -1,0 +1,33 @@
+---
+users:
+  - category: device_tier_1
+    persona:
+      - id: device_tier_1
+        value: High Net Worth 1
+        restrictions: MobilePrices_yaml/restrictions/MobilePrices_Tier1.yml
+  - category: device_tier_2
+    persona:
+      - id: device_tier_2
+        value: High Net Worth 2
+        restrictions: MobilePrices_yaml/restrictions/MobilePrices_Tier2.yml
+  - category: device_tier_3
+    persona:
+      - id: device_tier_3
+        value: Medium Net Worth 1
+        restrictions: MobilePrices_yaml/restrictions/MobilePrices_Tier3.yml
+  - category: device_tier_4
+    persona:
+      - id: device_tier_4
+        value: Medium Net Worth 2
+        restrictions: MobilePrices_yaml/restrictions/MobilePrices_Tier4.yml
+  - category: device_tier_5
+    persona:
+      - id: device_tier_5
+        value: Low Net Worth 1
+        restrictions: MobilePrices_yaml/restrictions/MobilePrices_Tier5.yml
+  - category: device_tier_6
+    persona:
+      - id: device_tier_6
+        value: Low Net Worth 2
+        restrictions: MobilePrices_yaml/restrictions/MobilePrices_Tier6.yml
+...

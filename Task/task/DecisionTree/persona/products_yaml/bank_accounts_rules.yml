@@ -1,0 +1,35 @@
+---
+products:
+  - category: Bank Account for Expats
+    product:
+      - id: location
+        value: bank_account_for_expats
+        restrictions: products_yaml/restrictions/bank_accounts/bafe/location_bafe.yml
+      - id: device
+        value: bank_account_for_expats
+        restrictions: products_yaml/restrictions/bank_accounts/bafe/device_bafe.yml
+  - category: Current Account
+    product:
+      - id: location
+        value: current_account
+        restrictions: products_yaml/restrictions/bank_accounts/currents_acc/location_ca.yml
+      - id: device
+        value: current_account
+        restrictions: products_yaml/restrictions/bank_accounts/currents_acc/device_ca.yml
+  - category: Savings Account
+    product:
+      - id: location
+        value: savings_account
+        restrictions: products_yaml/restrictions/bank_accounts/savings_acc/location_sa.yml
+      - id: device
+        value: savings_account
+        restrictions: products_yaml/restrictions/bank_accounts/savings_acc/device_sa.yml
+  - category: Manchester United Bank Account
+    product:
+      - id: location
+        value: manchester_united_bank_account 
+        restrictions: products_yaml/restrictions/bank_accounts/muba/location_muba.yml
+      - id: device
+        value: manchester_united_bank_account 
+        restrictions: products_yaml/restrictions/bank_accounts/muba/device_muba.yml
+...

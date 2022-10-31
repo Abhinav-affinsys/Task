@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: location_tier
+    allowed_values:
+      list: location_tier_1,location_tier_2,location_tier_3
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

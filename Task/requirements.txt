@@ -1,0 +1,6 @@
+Django==4.1.2
+djangorestframework==3.14.0
+numpy==1.23.3
+pandas==1.5.0
+PyYAML==6.0
+twilio==7.15.0

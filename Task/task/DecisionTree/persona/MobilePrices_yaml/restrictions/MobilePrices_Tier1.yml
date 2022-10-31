@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: device
+    allowed_values:
+      list: Huawei Mate Xs 2,Samsung Galaxy Z Fold 4,Apple iPhone 14 Pro Max,Apple iPhone 13 Pro Max
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: location
+    allowed_values:
+      list: Al Wakrah,Al Thumama,C-Ring,Msheireb Downtown Doha,Marina District,Qatar Entertainment City,Maisons Blanches
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

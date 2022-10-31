@@ -1,0 +1,19 @@
+---
+products:
+  - category: Sadara Banking
+    product:
+      - id: location
+        value: sadara_banking
+        restrictions: products_yaml/restrictions/privilege_banking/sadara_banking/location_sb.yml
+      - id: device
+        value: sadara_banking
+        restrictions: products_yaml/restrictions/privilege_banking/sadara_banking/device_sb.yml
+  - category: Private Banking
+    product:
+      - id: location
+        value: private_banking
+        restrictions: products_yaml/restrictions/privilege_banking/private_banking/location_pb.yml
+      - id: device
+        value: private_banking
+        restrictions: products_yaml/restrictions/privilege_banking/private_banking/device_pb.yml
+...

@@ -1,0 +1,35 @@
+---
+products:
+  - category: Vehicle Loan
+    product:
+      - id: location
+        value: vehicle_loan
+        restrictions: products_yaml/restrictions/loans/car_loans/location_cl.yml
+      - id: device
+        value: vehicle_loan
+        restrictions: products_yaml/restrictions/loans/car_loans/device_cl.yml
+  - category: Personal Loan
+    product:
+      - id: location
+        value: personal_loan
+        restrictions: products_yaml/restrictions/loans/personal_loan/location_pl.yml
+      - id: device
+        value: personal_loan
+        restrictions: products_yaml/restrictions/loans/personal_loan/device_pl.yml
+  - category: Mortgage Loan
+    product:
+      - id: location
+        value: mortgage_loan
+        restrictions: products_yaml/restrictions/loans/home_loans/location_ml.yml
+      - id: device
+        value: mortgage_loan
+        restrictions: products_yaml/restrictions/loans/home_loans/device_ml.yml
+  - category: Family needs Loan
+    product:
+      - id: location
+        value: family_needs_loan
+        restrictions: products_yaml/restrictions/loans/fnl/location_fnl.yml
+      - id: device
+        value: family_needs_loan
+        restrictions: products_yaml/restrictions/loans/fnl/device_fnl.yml
+...

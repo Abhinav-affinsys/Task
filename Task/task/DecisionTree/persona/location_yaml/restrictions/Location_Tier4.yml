@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: location
+    allowed_values:
+      list: Al Khor,Abu Hamour,Ain Khaled,Al Ghanim,Al Gharrafa,Al Mansoura,Al Muntazah,Al Nasr,Al Rayyan,Al Sadd,Barwa City,Fereej Bin Omran,Mesaimeer,Old Airport Road,Ras Abu Aboud,Salata,Umm Ghuwailina,Al Kheesa,Al Daayen,Blossom Tower,Al Asmakh,Al Hilal,Al Maamoura,Diplomatic Area,Hazm Al Markhiya,Izghawa,Mughalina
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...

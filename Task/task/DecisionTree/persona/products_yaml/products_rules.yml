@@ -1,0 +1,91 @@
+---
+products:
+  - category: manchester_united_classic_card
+    persona:
+      - id: location
+        value: manchester_united_classic_card
+        restrictions: products_yaml/restrictions/locations/location_mucc.yml
+      - id: device
+        value: manchester_united_classic_card
+        restrictions: products_yaml/restrictions/devices/device_mucc.yml
+  - category: classic_credit_card
+    persona:
+      - id: location
+        value: classic_credit_card
+        restrictions: products_yaml/restrictions/locations/location_ccc.yml
+      - id: device
+        value: classic_credit_card
+        restrictions: products_yaml/restrictions/devices/device_ccc.yml
+  - category: vehicle_loan
+    persona:
+      - id: location
+        value: vehicle_loan
+        restrictions: products_yaml/restrictions/locations/location_vc.yml
+      - id: device
+        value: vehicle_loan
+        restrictions: products_yaml/restrictions/devices/device_vc.yml
+  - category: bank_account_for_expats
+    persona:
+      - id: location
+        value: bank_account_for_expats
+        restrictions: products_yaml/restrictions/locations/location_bafe.yml
+      - id: device
+        value: bank_account_for_expats
+        restrictions: products_yaml/restrictions/devices/device_bafe.yml
+  - category: personal_loan
+    persona:
+      - id: location
+        value: personal_loan
+        restrictions: products_yaml/restrictions/locations/location_pl.yml
+      - id: device
+        value: personal_loan
+        restrictions: products_yaml/restrictions/devices/device_pl.yml
+  - category: titanium_credit_card
+    persona:
+      - id: location
+        value: titanium_credit_card
+        restrictions: products_yaml/restrictions/locations/location_tcc.yml
+      - id: device
+        value: titanium_credit_card
+        restrictions: products_yaml/restrictions/devices/device_tcc.yml
+  - category: current_account
+    persona:
+      - id: location
+        value: current_account
+        restrictions: products_yaml/restrictions/locations/location_ca.yml
+      - id: device
+        value: current_account
+        restrictions: products_yaml/restrictions/devices/device_ca.yml
+  - category: savings_account
+    persona:
+      - id: location
+        value: savings_account
+        restrictions: products_yaml/restrictions/locations/location_sa.yml
+      - id: device
+        value: savings_account
+        restrictions: products_yaml/restrictions/devices/device_sa.yml
+  - category: platinum_credit_card 
+    persona:
+      - id: location
+        value: platinum_credit_card 
+        restrictions: products_yaml/restrictions/locations/location_pcc.yml
+      - id: device
+        value: platinum_credit_card 
+        restrictions: products_yaml/restrictions/devices/device_pcc.yml
+  - category: mortgage_loan
+    persona:
+      - id: location
+        value: mortgage_loan
+        restrictions: products_yaml/restrictions/locations/location_ml.yml
+      - id: device
+        value: mortgage_loan
+        restrictions: products_yaml/restrictions/devices/device_ml.yml
+  - category: sadara_credit_card
+    persona:
+      - id: location
+        value: sadara_credit_card
+        restrictions: products_yaml/restrictions/locations/location_scc.yml
+      - id: device
+        value: sadara_credit_card
+        restrictions: products_yaml/restrictions/devices/device_scc.yml
+...

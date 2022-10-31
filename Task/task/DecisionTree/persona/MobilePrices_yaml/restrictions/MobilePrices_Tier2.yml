@@ -1,0 +1,13 @@
+---
+restrictions:
+  - attribute_of: user
+    attribute: device
+    allowed_values:
+      list: Apple iPhone 14 Plus,Apple iPhone 14,Apple iPhone 14 Pro,Apple iPhone 13 Pro,Huawei P50 Pocket Premium Edition,Huawei P50 Pocket,Samsung Galaxy Z Fold 3,Apple iPhone 12 Pro Max,Samsung Galaxy S21 Ultra,Samsung Galaxy Z Fold2,Apple iPhone 11 Pro Max,Apple iPhone 11 Pro 5,Google Pixel 3,Apple iPhone XS Max,Apple iPhone XS 51,Apple iPhone XS Max 5
+      min: False
+      max: False
+    excluded_values:
+      list: False
+      min: False
+      max: False
+...
